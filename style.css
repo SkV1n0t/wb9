@@ -1,0 +1,32 @@
+.b1 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.b2 {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+.b3 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.b4 {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    align-self: center  ;
+}
+.wrapper{
+    background-color: aqua;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 300px;
+    /* justify-items: center;
+    align-items: end; */
+    justify-self: start;
+    
+}
